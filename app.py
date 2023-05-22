@@ -366,7 +366,7 @@ elif option == 'Results':
 
              'Random Forest Model': [int(df_new5.number_people.sum()), int(df_new5.number_people.mean()), [round(value, 2) for value in sms.DescrStatsW(df_new5["number_people"]).tconfint_mean()]],
 
-             'XGBoost Model': [int(df_new6.number_people.sum()), int(df_new6.number_people.mean()), [round(value, 2) for value in sms.DescrStatsW(df_new6["number_people"]).tconfint_mean()]],
+             'XGBoost Model': [int(df_new6.number_people.sumstrea()), int(df_new6.number_people.mean()), [round(value, 2) for value in sms.DescrStatsW(df_new6["number_people"]).tconfint_mean()]],
 
              'CatBoost Model': [int(df_new7.number_people.sum()), int(df_new7.number_people.mean()), [round(value, 2) for value in sms.DescrStatsW(df_new7["number_people"]).tconfint_mean()]],
 
